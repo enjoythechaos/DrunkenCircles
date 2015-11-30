@@ -1,0 +1,21 @@
+(1)  Define Circles as an empty object if not defined.
+
+(2) Define the Circle function.  The Circle function stores the attributes of a circle:
+    center x, center y, radius, color.
+
+(3) Define a randomCircle function.  This function uses the size of the canvas
+    to position a circle at random, with the radius defined by our Circle.radius function,
+    and colored randomly.
+
+(4) Define a randomColor function.  This function just gives back a random 6 character long
+    RGB string in hexidecimal.
+
+
+(5) Define a radius function.  This function determines the radius of a circle using the size of
+    the canvas and the number of circles.
+
+(6) Define a moveRandom method on Circle.  This method generates a small change in x and a small
+    change in y and changes the center of the circle accordingly.
+
+(7) define a render method on Circle.  This method take a context (a canvas) (?) and renders
+    the circle using beginPath, arc, and fill methods on ctx.

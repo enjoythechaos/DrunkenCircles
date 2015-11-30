@@ -1,0 +1,19 @@
+(1)  Define Circles to be an empty object if it's not yet defined.
+
+(2)  Create a new Game object, also Circles.Game, that takes the dimensions of the canvas.
+     The game object will create an array of circles, the number of which is determined by a constant.
+
+(3)  Define a render method on Game.  This method will clear the canvas, then render each circle.
+
+(4)  Define a moveCircles method on Game.  This method goes through the list of circles and
+     moves each one, using the move method defined on Circle.
+
+(5)  Define a start method on Game.  This method takes a canvasEl parameter (the canvas).
+     This method defines a function called animationCallback that moves the circles,
+     renders them, and then requests an animation frame passing itself as the callback function.
+     animateCallback is bound to the Game object.  It is then called.
+
+(6*) The game itself is started from the HTML document.  In this doc, the canvas is set up
+     using the properties of the window.  A new Circles.Game is created, passing in the
+     dimensions of the canvas.  Circles.Game.start is immediately called, passing in the canvas
+     element as an argument.
